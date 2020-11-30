@@ -1,0 +1,3 @@
+<Files "wp-login.php">
+allow from all
+</Files>

@@ -1,0 +1,900 @@
+/* Begin Ad 1 */
+
+#ad-1 {
+	
+	width: 720px;
+	height: 300px;
+	margin: 4px 4px 4px;
+	background-image: url(../images/ad-1/background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: relative;
+	 -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777; 
+} 
+#ad-1 ul#water{
+}
+	#ad-1 li#water-back {
+		width: 1200px;
+		height: 84px;
+		background-image: url(../images/ad-1/water-back.png);
+		background-repeat: repeat-x;
+		z-index: 1;
+		position: absolute;
+		bottom: 10px;
+		left: -20px;
+		-webkit-animation: water-back-animation 3s infinite ease-in-out;
+		-moz-animation: water-back-animation 3s infinite ease-in-out;
+		-o-animation: water-back-animation 3s infinite ease-in-out;
+		-ms-animation: water-back-animation 3s infinite ease-in-out;
+		animation: water-back-animation 3s infinite ease-in-out;
+	}
+	#ad-1 li#water-front {
+		width: 1200px;
+		height: 158px;
+		background-image: url(../images/ad-1/water-front.png);
+		background-repeat: repeat-x;
+		z-index: 3;
+		position: absolute;
+		bottom: -70px;
+		left:-30px;
+		-webkit-animation: water-front-animation 2s infinite ease-in-out;
+		-moz-animation: water-front-animation 2s infinite ease-in-out;
+		-o-animation: water-front-animation 2s infinite ease-in-out;
+		-ms-animation: water-front-animation 2s infinite ease-in-out;
+		animation: water-front-animation 2s infinite ease-in-out;
+	}
+#ad-1 ul#boat {
+	width: 249px;
+	height: 215px;
+	z-index: 2;
+	position: absolute;
+	bottom: 25px;
+	left: 20px;
+	overflow: visible;
+	-webkit-animation: boat-in-animation 3s 1 ease-out;
+	-moz-animation: boat-in-animation 3s 1 ease-out;
+	-o-animation: boat-in-animation 3s 1 ease-out;
+	-ms-animation: boat-in-animation 3s 1 ease-out;
+	animation: boat-in-animation 3s 1 ease-out;
+}
+	#ad-1 ul#boat li {
+		width: 249px;
+		height: 215px;
+		background-image: url(../images/ad-1/boat.png);
+		position: absolute;
+		bottom: 0px;
+		list-style-type:none!important;
+		left: 0px;
+		overflow: visible;
+		-webkit-animation: boat-animation 2s infinite ease-in-out;
+		-moz-animation: boat-animation 2s infinite ease-in-out;
+		-o-animation: boat-animation 2s infinite ease-in-out;
+		-ms-animation: boat-animation 2s infinite ease-in-out;
+		animation: boat-animation 2s infinite ease-in-out;
+	}
+		#ad-1 #question-mark {
+			width: 24px;
+			height: 50px;
+			background-image: url(../images/ad-1/question-mark.png);
+			position: absolute;
+			right: 34px;
+			top: -30px;
+			-webkit-animation: question-mark-animation 4s 1 ease-in-out;
+			-moz-animation: question-mark-animation 4s 1 ease-in-out;
+			-o-animation: question-mark-animation 4s 1 ease-in-out;
+			-ms-animation: question-mark-animation 4s 1 ease-in-out;
+			animation: question-mark-animation 4s 1 ease-in-out;
+		}
+#ad-1 #clouds {
+	position: absolute;
+	top: 0px;
+	z-index: 0;
+}
+#ad-1 #cloud-group-1 {
+	width:720px;
+	position: absolute;
+		list-style-type:none!important;
+	left:0px;
+	-webkit-animation: cloud-group-1-animation 30s infinite linear;
+	-moz-animation: cloud-group-1-animation 30s infinite linear;
+	-o-animation: cloud-group-1-animation 30s infinite linear;
+	-ms-animation: cloud-group-1-animation 30s infinite linear;
+	animation: cloud-group-1-animation 30s infinite linear;
+}
+#ad-1 #cloud-group-2 {
+	width: 720px;
+		list-style-type:none!important;
+	position: absolute;
+	left: 720px;
+	-webkit-animation: cloud-group-2-animation 30s infinite linear;
+	-moz-animation: cloud-group-2-animation 30s infinite linear;
+	-o-animation: cloud-group-2-animation 30s infinite linear;
+	-ms-animation: cloud-group-2-animation 30s infinite linear;
+	animation: cloud-group-2-animation 30s infinite linear;
+}
+	#ad-1 .cloud-1 {
+		width: 172px;
+		height: 121px;
+		background-image: url(../images/ad-1/cloud-1.png);
+		position: absolute;
+		top: 10px;
+		left: 40px;
+	}
+	#ad-1 .cloud-2 {
+		width: 121px;
+		height: 75px;
+		background-image: url(../images/ad-1/cloud-2.png);
+		position: absolute;
+		top: -25px;
+		left: 300px;
+	}
+	#ad-1 .cloud-3 {
+		width: 132px;
+		height: 105px;
+		background-image: url(../images/ad-1/cloud-3.png);
+		position: absolute;
+		top: -5px;
+		left: 530px;
+	}
+	
+/* WebKit Animations */
+
+@-webkit-keyframes h2-animation {
+	0%   {opacity: 0;}
+	80%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes h3-animation {
+	0%   {opacity: 0;}
+	80%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes form-animation {
+	0%   {opacity: 0; right: -400px;}
+	90%  {opacity: 0; right: -400px;}
+	95%  {opacity: 0.5; right: 20px;}
+	100% {opacity: 1; right: 0px;}
+}
+@-webkit-keyframes boat-in-animation {
+	0%   {left: -200px;}
+	100% {left: 20px;}
+}
+@-webkit-keyframes boat-animation {
+	0%   {bottom: 0px; left: 0px;}
+	25%  {bottom: -2px; left: -2px;}
+	70%  {bottom: 2px; left: -4px;}
+	100% {bottom: -1px; left: 0px;}
+}
+@-webkit-keyframes question-mark-animation {
+	0%   {opacity:0;}
+	80%   {opacity:0;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes cloud-group-1-animation {
+	0%       {left: 0px;}
+	99.9999%   {left: -720px;}
+	100%     {left: 0px;}
+}
+@-webkit-keyframes cloud-group-2-animation {
+	0%       {left: 720px;}
+	99.9999%   {left: 0px;}
+	100%     {left: 720px;}
+}
+@-webkit-keyframes water-back-animation {
+	0%   {bottom: 10px; left: -20px;}
+	25%  {bottom: 8px; left: -22px;}
+	70%  {bottom: 12px; left: -24px;}
+	100% {bottom: 9px; left: -20px;}
+}
+@-webkit-keyframes water-front-animation {
+	0%   {bottom: -70px; left: -30px;}
+	25%  {bottom: -68px; left: -32px;}
+	70%  {bottom: -72px; left: -34px;}
+	100% {bottom: -69px; left: -30px;}
+}
+
+/* FireFox Animations */
+
+@-moz-keyframes h2-animation {
+	0%   {opacity: 0;}
+	80%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-moz-keyframes h3-animation {
+	0%   {opacity: 0;}
+	80%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-moz-keyframes form-animation {
+	0%   {opacity: 0; right: -400px;}
+	90%  {opacity: 0; right: -400px;}
+	95%  {opacity: 0.5; right: 20px;}
+	100% {opacity: 1; right: 0px;}
+}
+@-moz-keyframes boat-in-animation {
+	0%   {left: -200px;}
+	100% {left: 20px;}
+}
+@-moz-keyframes boat-animation {
+	0%   {bottom: 0px; left: 0px;}
+	25%  {bottom: -2px; left: -2px;}
+	70%  {bottom: 2px; left: -4px;}
+	100% {bottom: -1px; left: 0px;}
+}
+@-moz-keyframes question-mark-animation {
+	0%   {opacity:0;}
+	80%   {opacity:0;}
+	100% {opacity:1;}
+}
+@-moz-keyframes cloud-group-1-animation {
+	0%       {left: 0px;}
+	99.9999%   {left: -720px;}
+	100%     {left: 0px;}
+}
+@-moz-keyframes cloud-group-2-animation {
+	0%       {left: 720px;}
+	99.9999%   {left: 0px;}
+	100%     {left: 720px;}
+}
+@-moz-keyframes water-back-animation {
+	0%   {bottom: 10px; left: -20px;}
+	25%  {bottom: 8px; left: -22px;}
+	70%  {bottom: 12px; left: -24px;}
+	100% {bottom: 9px; left: -20px;}
+}
+@-moz-keyframes water-front-animation {
+	0%   {bottom: -70px; left: -30px;}
+	25%  {bottom: -68px; left: -32px;}
+	70%  {bottom: -72px; left: -34px;}
+	100% {bottom: -69px; left: -30px;}
+}
+
+/* Opera Animations */
+
+@-o-keyframes h2-animation {
+	0%   {opacity: 0;}
+	80%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-o-keyframes h3-animation {
+	0%   {opacity: 0;}
+	80%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-o-keyframes form-animation {
+	0%   {opacity: 0; right: -400px;}
+	90%  {opacity: 0; right: -400px;}
+	95%  {opacity: 0.5; right: 20px;}
+	100% {opacity: 1; right: 0px;}
+}
+@-o-keyframes boat-in-animation {
+	0%   {left: -200px;}
+	100% {left: 20px;}
+}
+@-o-keyframes boat-animation {
+	0%   {bottom: 0px; left: 0px;}
+	25%  {bottom: -2px; left: -2px;}
+	70%  {bottom: 2px; left: -4px;}
+	100% {bottom: -1px; left: 0px;}
+}
+@-o-keyframes question-mark-animation {
+	0%   {opacity:0;}
+	80%   {opacity:0;}
+	100% {opacity:1;}
+}
+@-o-keyframes cloud-group-1-animation {
+	0%       {left: 0px;}
+	99.9999%   {left: -720px;}
+	100%     {left: 0px;}
+}
+@-o-keyframes cloud-group-2-animation {
+	0%       {left: 720px;}
+	99.9999%   {left: 0px;}
+	100%     {left: 720px;}
+}
+@-o-keyframes water-back-animation {
+	0%   {bottom: 10px; left: -20px;}
+	25%  {bottom: 8px; left: -22px;}
+	70%  {bottom: 12px; left: -24px;}
+	100% {bottom: 9px; left: -20px;}
+}
+@-o-keyframes water-front-animation {
+	0%   {bottom: -70px; left: -30px;}
+	25%  {bottom: -68px; left: -32px;}
+	70%  {bottom: -72px; left: -34px;}
+	100% {bottom: -69px; left: -30px;}
+}
+
+/* IE Animations */
+
+@-ms-keyframes h2-animation {
+	0%   {opacity: 0;}
+	80%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-ms-keyframes h3-animation {
+	0%   {opacity: 0;}
+	80%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-ms-keyframes form-animation {
+	0%   {opacity: 0; right: -400px;}
+	90%  {opacity: 0; right: -400px;}
+	95%  {opacity: 0.5; right: 20px;}
+	100% {opacity: 1; right: 0px;}
+}
+@-ms-keyframes boat-in-animation {
+	0%   {left: -200px;}
+	100% {left: 20px;}
+}
+@-ms-keyframes boat-animation {
+	0%   {bottom: 0px; left: 0px;}
+	25%  {bottom: -2px; left: -2px;}
+	70%  {bottom: 2px; left: -4px;}
+	100% {bottom: -1px; left: 0px;}
+}
+@-ms-keyframes question-mark-animation {
+	0%   {opacity:0;}
+	80%   {opacity:0;}
+	100% {opacity:1;}
+}
+@-ms-keyframes cloud-group-1-animation {
+	0%       {left: 0px;}
+	99.9999%   {left: -720px;}
+	100%     {left: 0px;}
+}
+@-ms-keyframes cloud-group-2-animation {
+	0%       {left: 720px;}
+	99.9999%   {left: 0px;}
+	100%     {left: 720px;}
+}
+@-ms-keyframes water-back-animation {
+	0%   {bottom: 10px; left: -20px;}
+	25%  {bottom: 8px; left: -22px;}
+	70%  {bottom: 12px; left: -24px;}
+	100% {bottom: 9px; left: -20px;}
+}
+@-ms-keyframes water-front-animation {
+	0%   {bottom: -70px; left: -30px;}
+	25%  {bottom: -68px; left: -32px;}
+	70%  {bottom: -72px; left: -34px;}
+	100% {bottom: -69px; left: -30px;}
+}
+
+/* Animations */
+
+@keyframes h2-animation {
+	0%   {opacity: 0;}
+	80%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes h3-animation {
+	0%   {opacity: 0;}
+	80%  {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes form-animation {
+	0%   {opacity: 0; right: -400px;}
+	90%  {opacity: 0; right: -400px;}
+	95%  {opacity: 0.5; right: 20px;}
+	100% {opacity: 1; right: 0px;}
+}
+@keyframes boat-in-animation {
+	0%   {left: -200px;}
+	100% {left: 20px;}
+}
+@keyframes boat-animation {
+	0%   {bottom: 0px; left: 0px;}
+	25%  {bottom: -2px; left: -2px;}
+	70%  {bottom: 2px; left: -4px;}
+	100% {bottom: -1px; left: 0px;}
+}
+@keyframes question-mark-animation {
+	0%   {opacity:0;}
+	80%   {opacity:0;}
+	100% {opacity:1;}
+}
+@keyframes cloud-group-1-animation {
+	0%       {left: 0px;}
+	99.9999%   {left: -720px;}
+	100%     {left: 0px;}
+}
+@keyframes cloud-group-2-animation {
+	0%       {left: 720px;}
+	99.9999%   {left: 0px;}
+	100%     {left: 720px;}
+}
+@keyframes water-back-animation {
+	0%   {bottom: 10px; left: -20px;}
+	25%  {bottom: 8px; left: -22px;}
+	70%  {bottom: 12px; left: -24px;}
+	100% {bottom: 9px; left: -20px;}
+}
+@keyframes water-front-animation {
+	0%   {bottom: -70px; left: -30px;}
+	25%  {bottom: -68px; left: -32px;}
+	70%  {bottom: -72px; left: -34px;}
+	100% {bottom: -69px; left: -30px;}
+}
+
+/* End Ad 1 */
+
+/* Begin Ad 2 */
+
+#ad-2 {
+	width: 160px;
+	height: 600px;
+	margin: 40px auto 40px;
+	background-image: url(../images/ad-2/background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+	text-align: center;
+}
+#ad-2 h2 {
+	font-family: 'Alfa Slab One', cursive;
+	color: #137dd5;
+	font-size: 50px;
+	line-height: 50px;
+	text-shadow: 0px 0px 4px #fff;
+	margin-top: 110px;
+	-webkit-animation: h2-animation-2 10s 1 ease-in-out;
+	-moz-animation: h2-animation-2 10s 1 ease-in-out;
+	-o-animation: h2-animation-2 5s 1 ease-in-out;
+	-ms-animation: h2-animation-2 5s 1 ease-in-out;
+	animation: h2-animation-2 5s 1 ease-in-out;
+}
+#ad-2 ul#boat {
+	width: 96px;
+	height: 84px;
+	overflow: visible;
+	z-index: 2;
+	position: absolute;
+	top: 326px;
+	left: 10px;
+	-webkit-animation: boat-in-animation-2 15s 1 ease-in-out;
+	-moz-animation: boat-in-animation-2 15s 1 ease-in-out;
+	-o-animation: boat-in-animation-2 15s 1 ease-in-out;
+	-ms-animation: boat-in-animation-2 15s 1 ease-in-out;
+	animation: boat-in-animation-2 15s 1 ease-in-out;
+}
+	#ad-2 ul#boat li {
+    list-style-type: none!important;
+		width: 96px;
+		height: 84px;
+		z-index: 2;
+		position: relative;
+		top: 0px;
+		left: 0px;
+		background-image: url(../images/ad-2/boat.png);
+		-webkit-animation: boat-animation-2 2.5s infinite ease-out;
+		-moz-animation: boat-animation-2 2.5s infinite ease-out;
+		-o-animation: boat-animation-2 2.5s infinite ease-out;
+		-ms-animation: boat-in-animation-2 2.5s infinite ease-out;
+		animation: boat-animation-2 2.5s infinite ease-out;
+	}
+#ad-2 #water {
+	position: absolute;
+	top: 382px;
+	-webkit-animation: water-in-animation-2 2s 1 ease-out;
+	-moz-animation: water-in-animation-2 2s 1 ease-out;
+	-o-animation: water-in-animation-2 2s 1 ease-out;
+	-ms-animation: water-in-animation-2 2s 1 ease-out;
+	animation: water-in-animation-2 2s 1 ease-out;
+}
+	#ad-2 #water-back {
+		width: 200px;
+		height: 75px;
+		background-image: url(../images/ad-2/water-back.png);
+		background-repeat: repeat-x;
+		z-index: 1;
+		position: absolute;
+		top: 0px;
+		left: -22px;
+		-webkit-animation: water-back-animation-2 3s infinite ease-in-out;
+		-moz-animation: water-back-animation-2 3s infinite ease-in-out;
+		-o-animation: water-back-animation-2 3s infinite ease-in-out;
+		-ms-animation: water-back-animation-2 3s infinite ease-in-out;
+		animation: water-back-animation-2 3s infinite ease-in-out;
+	}
+	#ad-2 #water-front {
+		width: 200px;
+		height: 368px;
+		background-image: url(../images/ad-2/water-front.png);
+		background-repeat: repeat-x;
+		z-index: 3;
+		position: absolute;
+		top: 2px;
+		left:-30px;
+		-webkit-animation: water-front-animation-2 2s infinite ease-in-out;
+		-moz-animation: water-front-animation-2 2s infinite ease-in-out;
+		-o-animation: water-front-animation-2 2s infinite ease-in-out;
+		-ms-animation: water-front-animation-2 2s infinite ease-in-out;
+		animation: water-front-animation-2 2s infinite ease-in-out;
+	}
+#ad-2 #content {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	z-index: 4;
+	-webkit-animation: content-in-animation-2 15s 1 ease-in-out;
+	-moz-animation: content-in-animation-2 15s 1 ease-in-out;
+	-o-animation: content-in-animation-2 15s 1 ease-in-out;
+	-ms-animation: content-in-animation-2 15s 1 ease-in-out;
+	animation: content-in-animation-2 15s 1 ease-in-out;
+}
+	#ad-2 #content h3 {
+		color: #fff;
+		font-family: 'Boogaloo', cursive;
+		font-size: 30px;
+		line-height: 32px;
+		text-shadow: 0px 0px 4px #137dd5;
+	}
+	#ad-2 #content a:link, #ad-2 #content a:visited {
+		display: inline-block;
+		height: 20px;
+		padding: 15px;
+		font-family: 'Boogaloo', cursive;
+		font-size: 20px;
+		line-height: 20px;
+		color: #137dd5;
+		text-shadow: 1px 1px 0px #fff;
+		background-color: #fff;
+		border-radius: 5px;
+		margin: 20px 0px;
+		box-shadow: 2px 2px 0px #137dd5;
+		border: 1px solid #fff;
+		background-image: linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
+		background-image: -o-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
+		background-image: -moz-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
+		background-image: -webkit-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
+		background-image: -ms-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
+	}
+	#ad-2 #content a:hover, #ad-2 #content a:active {
+		background-image: linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
+		background-image: -o-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
+		background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
+		background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
+		background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
+	}
+
+/* WebKit Animations */
+
+@-webkit-keyframes h2-animation-2 {
+	0%   {opacity: 0; font-size: 0px;}
+	90%  {opacity: 0; font-size: 0px;}
+	95%  {opacity: 1; font-size: 60px;}
+	100% {font-size: 50px;}
+}
+@-webkit-keyframes content-in-animation-2 {
+	0%   {opacity: 0;}
+	90%  {opacity: 0;}
+	95%  {opacity: 1;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes water-in-animation-2 {
+	0%   {top: 600px; left: -10px;}
+	100% {top: 380px; left: 0px;}
+}
+@-webkit-keyframes water-front-animation-2 {
+	0%   {top: 2px; left: -30px;}
+	25%  {top: 0px; left: -32px;}
+	70%  {top: 4px; left: -34px;}
+	100% {top: 1px; left: -30px;}
+}
+@-webkit-keyframes water-back-animation-2 {
+	0%   {top: 0px; left: -20px;}
+	25%  {top: -2px; left: -22px;}
+	70%  {top: 2px; left: -24px;}
+	100% {top: -1px; left: -20px;}
+}
+@-webkit-keyframes boat-in-animation-2 {
+	0%       {left: -150px;}
+	7%       {left: -150px;}
+	75%      {left: 310px;}
+	75.0001% {left: -100px;}
+	90%      {left: 10px;}
+	100%     {left: 10px;}
+}
+@-webkit-keyframes boat-animation-2 {
+	0%   {top: 0px; left: 0px;}
+	25%  {top: -2px; left: -2px;}
+	70%  {top: 2px; left: -2px;}
+	100% {top: -1px; left: -1px;}
+}
+
+/* FireFox Animations */
+
+@-moz-keyframes h2-animation-2 {
+	0%   {opacity: 0; font-size: 0px;}
+	90%  {opacity: 0; font-size: 0px;}
+	95%  {opacity: 1; font-size: 60px;}
+	100% {font-size: 50px;}
+}
+@-moz-keyframes content-in-animation-2 {
+	0%   {opacity: 0;}
+	90%  {opacity: 0;}
+	95%  {opacity: 1;}
+	100% {opacity: 1;}
+}
+@-moz-keyframes water-in-animation-2 {
+	0%   {top: 600px; left: -10px;}
+	100% {top: 380px; left: 0px;}
+}
+@-moz-keyframes water-front-animation-2 {
+	0%   {top: 2px; left: -30px;}
+	25%  {top: 0px; left: -32px;}
+	70%  {top: 4px; left: -34px;}
+	100% {top: 1px; left: -30px;}
+}
+@-moz-keyframes water-back-animation-2 {
+	0%   {top: 0px; left: -20px;}
+	25%  {top: -2px; left: -22px;}
+	70%  {top: 2px; left: -24px;}
+	100% {top: -1px; left: -20px;}
+}
+@-moz-keyframes boat-in-animation-2 {
+	0%       {left: -150px;}
+	7%       {left: -150px;}
+	75%      {left: 310px;}
+	75.0001% {left: -100px;}
+	90%      {left: 10px;}
+	100%     {left: 10px;}
+}
+@-moz-keyframes boat-animation-2 {
+	0%   {top: 0px; left: 0px;}
+	25%  {top: -2px; left: -2px;}
+	70%  {top: 2px; left: -2px;}
+	100% {top: -1px; left: -1px;}
+}
+
+/* Opera Animations */
+
+@-o-keyframes h2-animation-2 {
+	0%   {opacity: 0; font-size: 0px;}
+	90%  {opacity: 0; font-size: 0px;}
+	95%  {opacity: 1; font-size: 60px;}
+	100% {font-size: 50px;}
+}
+@-o-keyframes content-in-animation-2 {
+	0%   {opacity: 0;}
+	90%  {opacity: 0;}
+	95%  {opacity: 1;}
+	100% {opacity: 1;}
+}
+@-o-keyframes water-in-animation-2 {
+	0%   {top: 600px; left: -10px;}
+	100% {top: 380px; left: 0px;}
+}
+@-o-keyframes water-front-animation-2 {
+	0%   {top: 2px; left: -30px;}
+	25%  {top: 0px; left: -32px;}
+	70%  {top: 4px; left: -34px;}
+	100% {top: 1px; left: -30px;}
+}
+@-o-keyframes water-back-animation-2 {
+	0%   {top: 0px; left: -20px;}
+	25%  {top: -2px; left: -22px;}
+	70%  {top: 2px; left: -24px;}
+	100% {top: -1px; left: -20px;}
+}
+@-o-keyframes boat-in-animation-2 {
+	0%       {left: -150px;}
+	7%       {left: -150px;}
+	75%      {left: 310px;}
+	75.0001% {left: -100px;}
+	90%      {left: 10px;}
+	100%     {left: 10px;}
+}
+@-o-keyframes boat-animation-2 {
+	0%   {top: 0px; left: 0px;}
+	25%  {top: -2px; left: -2px;}
+	70%  {top: 2px; left: -2px;}
+	100% {top: -1px; left: -1px;}
+}
+
+/* IE Animations */
+
+@-ms-keyframes h2-animation-2 {
+	0%   {opacity: 0; font-size: 0px;}
+	90%  {opacity: 0; font-size: 0px;}
+	95%  {opacity: 1; font-size: 60px;}
+	100% {font-size: 50px;}
+}
+@-ms-keyframes content-in-animation-2 {
+	0%   {opacity: 0;}
+	90%  {opacity: 0;}
+	95%  {opacity: 1;}
+	100% {opacity: 1;}
+}
+@-ms-keyframes water-in-animation-2 {
+	0%   {top: 600px; left: -10px;}
+	100% {top: 380px; left: 0px;}
+}
+@-ms-keyframes water-front-animation-2 {
+	0%   {top: 2px; left: -30px;}
+	25%  {top: 0px; left: -32px;}
+	70%  {top: 4px; left: -34px;}
+	100% {top: 1px; left: -30px;}
+}
+@-ms-keyframes water-back-animation-2 {
+	0%   {top: 0px; left: -20px;}
+	25%  {top: -2px; left: -22px;}
+	70%  {top: 2px; left: -24px;}
+	100% {top: -1px; left: -20px;}
+}
+@-ms-keyframes boat-in-animation-2 {
+	0%       {left: -150px;}
+	7%       {left: -150px;}
+	75%      {left: 310px;}
+	75.0001% {left: -100px;}
+	90%      {left: 10px;}
+	100%     {left: 10px;}
+}
+@-ms-keyframes boat-animation-2 {
+	0%   {top: 0px; left: 0px;}
+	25%  {top: -2px; left: -2px;}
+	70%  {top: 2px; left: -2px;}
+	100% {top: -1px; left: -1px;}
+}
+
+/* Animations */
+
+@keyframes h2-animation-2 {
+	0%   {opacity: 0; font-size: 0px;}
+	90%  {opacity: 0; font-size: 0px;}
+	95%  {opacity: 1; font-size: 60px;}
+	100% {font-size: 50px;}
+}
+@keyframes content-in-animation-2 {
+	0%   {opacity: 0;}
+	90%  {opacity: 0;}
+	95%  {opacity: 1;}
+	100% {opacity: 1;}
+}
+@keyframes water-in-animation-2 {
+	0%   {top: 600px; left: -10px;}
+	100% {top: 380px; left: 0px;}
+}
+@keyframes water-front-animation-2 {
+	0%   {top: 2px; left: -30px;}
+	25%  {top: 0px; left: -32px;}
+	70%  {top: 4px; left: -34px;}
+	100% {top: 1px; left: -30px;}
+}
+@keyframes water-back-animation-2 {
+	0%   {top: 0px; left: -20px;}
+	25%  {top: -2px; left: -22px;}
+	70%  {top: 2px; left: -24px;}
+	100% {top: -1px; left: -20px;}
+}
+@keyframes boat-in-animation-2 {
+	0%       {left: -150px;}
+	7%       {left: -150px;}
+	75%      {left: 310px;}
+	75.0001% {left: -100px;}
+	90%      {left: 10px;}
+	100%     {left: 10px;}
+}
+@keyframes boat-animation-2 {
+	0%   {top: 0px; left: 0px;}
+	25%  {top: -2px; left: -2px;}
+	70%  {top: 2px; left: -2px;}
+	100% {top: -1px; left: -1px;}
+}
+
+/* End Ad 2 */
+#DIV_1 {
+    color: rgb(147, 106, 70);
+    float: right;
+    height: 161px;
+    position: relative;
+    text-align: center;
+    width: 325px;
+    z-index: 4;
+    perspective-origin: 162.5px 80.5px;
+    transform-origin: 162.5px 80.5px;
+    border: 0px none rgb(147, 106, 70);
+    font: normal normal normal normal 15px / normal Constantia, Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    margin: 40px;
+    outline: rgb(147, 106, 70) none 0px;
+}/*#DIV_1*/
+
+#H2_2 {
+    color: rgb(19, 125, 213);
+    height: 50px;
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 0px 0px 4px;
+    width: 325px;
+    perspective-origin: 162.5px 25px;
+    transform-origin: 162.5px 25px;
+    animation: h2-animation 7s ease-in-out 0s 1 normal none running;
+    border: 0px none rgb(19, 125, 213);
+    font: normal normal normal normal 50px / 50px 'Alfa Slab One', cursive;
+    margin: 0px;
+    outline: rgb(19, 125, 213) none 0px;
+}/*#H2_2*/
+
+#H3_3 {
+    color: rgb(32, 34, 36);
+    height: 31px;
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 0px 0px 4px;
+    width: 325px;
+    perspective-origin: 162.5px 15.5px;
+    transform-origin: 162.5px 15.5px;
+    animation: h3-animation 10s ease-in-out 0s 1 normal none running;
+    border: 0px none rgb(32, 34, 36);
+    font: normal normal normal normal 31px / 31px Boogaloo, cursive;
+    margin: 0px;
+    outline: rgb(32, 34, 36) none 0px;
+}/*#H3_3*/
+
+#FORM_4 {
+    color: rgb(147, 106, 70)!important;
+    position: relative;
+    text-align: center;
+    width: 319px;
+    perspective-origin: 159.5px 0px;
+    transform-origin: 159.5px 0px;
+    animation: form-animation 12s ease-in-out 0s 1 normal none running;
+    border: 0px none rgb(147, 106, 70);
+    font: normal normal normal normal 15px / normal Constantia, Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+    margin: 30px 0px 0px 6px!important;
+    outline: rgb(147, 106, 70) none 0pxv;
+}/*#FORM_4*/
+
+#INPUT_5 {
+    box-shadow: rgb(255, 255, 255) -1px -1px 1px 0px!important;
+    box-sizing: content-box!important;
+    color: #993300!important;
+    display: block!important;
+    float: left;
+    height: 48px!important;
+    text-shadow: 993300 1px 1px 0px!important;
+    width: 158px!important;
+    perspective-origin: 100px 25px!important;
+    transform-origin: 100px 25px!important;
+    background:#FFF -webkit-linear-gradient(bottom,FFFF99 0%, rgb(199, 178, 155) 100%) repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(162, 145, 125);
+    border-radius: 5px 0 0 5px!important;
+    font: normal normal normal normal 16px / normal 'Lucida Grande', sans-serif;
+    outline: rgb(255, 255, 255) none 0px!important;
+    padding: 0px 20px!important;
+}/*#INPUT_5*/
+
+#INPUT_6 {
+    color: rgb(19, 125, 213)!important;
+    cursor: pointer;
+    display: block!important;
+    float: left;
+    height: 50px!important;
+    text-align: center!important;
+    text-shadow: rgb(255, 255, 255) 1px 1px 0px!important;
+    white-space: pre!important;
+    width: 104.75px!important;
+    align-items: flex-start;
+    perspective-origin: 52.375px 25px!important;
+    transform-origin: 52.375px 25px!important;
+    background: rgb(255, 255, 255) -webkit-linear-gradient(bottom, rgb(245, 247, 249) 0%, rgb(255, 255, 255) 100%) repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 1px solid rgb(188, 192, 196)!important;
+    border-right: 1px solid rgb(188, 192, 196)!important;
+    border-bottom: 1px solid rgb(188, 192, 196)!important;
+    border-left: 0px none rgb(19, 125, 213)!important;
+    border-radius: 0 5px 5px 0!important;
+    font: normal normal normal normal 20px / normal Boogaloo, cursive;
+    outline: rgb(19, 125, 213) none 0px;
+    padding: 0px 20px!important;
+}/*#INPUT_6*/
+#FORM_4  ::selection {
+    background: #fff!important; 
+}
+
+#FORM_4   ::-moz-selection {
+    background:#fff!important; 
+}

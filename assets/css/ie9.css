@@ -1,0 +1,10 @@
+/* 
+	 CCA 3.0 license
+*/
+
+/* Signup Form */
+
+	#signup-form > * {
+		display: inline-block;
+		vertical-align: top;
+	}
